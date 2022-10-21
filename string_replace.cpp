@@ -55,11 +55,8 @@ int main()
 
     while(idx != -1)
     {
-        if(idx == 0 ||  TEXT[idx-1] == ' ')
-        {
-            TEXT = REPLACE(TEXT, PREV, NEW);
-            idx = INDEX(TEXT, PREV);
-        }
+        TEXT = REPLACE(TEXT, PREV, NEW);
+        idx = INDEX(TEXT, PREV);
     }
 
     cout << "Replaced String: " << TEXT << '\n';
