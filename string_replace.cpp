@@ -1,3 +1,8 @@
+/**
+* A Program to Replace Every Occurance of a Word in a String With Another
+* AUTHOR: Astik Roy
+**/
+
 #include <iostream>
 
 using namespace std;
